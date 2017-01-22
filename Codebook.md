@@ -1,7 +1,8 @@
 # Codebook
 
 This code book describes the dataset summaryData.txt 
-Data: 180 rows, 68 named columns, the variables 
+
+Data: 181 rows, 68 columns, the variable names are in the first row
 
 ## Variables
 

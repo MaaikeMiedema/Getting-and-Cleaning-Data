@@ -100,5 +100,5 @@ names(allData)<-str_replace(names(allData),"BodyBody","Body") %>%
 
 summaryData<-group_by(allData,subjectID,activity) %>%
              summarize_all(mean)
-write.table(summaryData,"summaryData.txt")      
+write.table(summaryData,"summaryData.txt", row.name=FALSE)      
 
